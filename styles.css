@@ -31,3 +31,20 @@ ul li {
   font-family: alien;
   animation: flash 1.5s linear infinite;
 }
+
+
+
+@keyframes flash {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #00eeff;
+    text-shadow: 0 0 7px #00eeff, 0 0 50px #03235f;
+  }
+}
