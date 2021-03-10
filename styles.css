@@ -16,8 +16,18 @@ body {
 }
 
 ul {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 40%;
-  }
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 8vw;
+  letter-spacing: 15px;
+  color: #484848;
+  font-family: alien;
+  animation: flash 1.5s linear infinite;
+}
